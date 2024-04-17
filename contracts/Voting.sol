@@ -40,7 +40,7 @@ contract Voting {
     function createPoll(
         string memory _title,
         string memory _description,
-        uint _startsAt,
+        uint _startsAt, 
         uint _endsAt
     ) public {
         require(bytes(_title).length > 0, "Title cannot be empty");
